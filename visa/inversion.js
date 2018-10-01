@@ -1,0 +1,5 @@
+function maxInversions(prices) {
+
+
+}
+
