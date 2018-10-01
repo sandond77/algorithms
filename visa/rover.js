@@ -43,13 +43,20 @@ function roverMove(matrixSize, cmds) {
                 break;
         }
 
-        // console.log(cmds[i], position)
-        // console.log(value = (position[0]*matrixSize) + position[1])
+        console.log(cmds[i], position)
+        console.log(value = (position[0]*matrixSize) + position[1])
     }
 
 
     //Using switch case to determine how to move through the matrix
+    console.log(value = (position[0]*matrixSize) + position[1])
     return value = (position[0]*matrixSize) + position[1];
+
 }
 
-roverMove(4,["UP","DOWN",'RIGHT','RIGHT','LEFT','UP']);
+roverMove(4,['UP',
+'DOWN',
+'RIGHT',
+'RIGHT',
+'LEFT',
+'UP']);
